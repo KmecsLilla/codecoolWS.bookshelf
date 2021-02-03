@@ -1,4 +1,4 @@
-package com.codecool.bookshelf;
+package com.codecool.bookshelf.books;
 
 public class Book {
     private String title;

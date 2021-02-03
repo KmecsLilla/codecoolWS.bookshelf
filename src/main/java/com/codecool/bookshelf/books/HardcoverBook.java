@@ -1,4 +1,4 @@
-package com.codecool.bookshelf;
+package com.codecool.bookshelf.books;
 
 public class HardcoverBook extends Book{
     private static final int GRAM_PER_PAGE = 10;

@@ -1,5 +1,8 @@
 package com.codecool.bookshelf;
 
+import com.codecool.bookshelf.books.HardcoverBook;
+import com.codecool.bookshelf.books.PaperbackBook;
+
 public class Main {
     public static void main(String[] args) {
         Bookshelf myBS = new Bookshelf();

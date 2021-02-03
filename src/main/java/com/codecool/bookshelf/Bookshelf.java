@@ -1,9 +1,10 @@
 package com.codecool.bookshelf;
 
+import com.codecool.bookshelf.books.Book;
+
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
 public class Bookshelf {
