@@ -1,6 +1,6 @@
 package com.codecool.bookshelf;
 
-import com.codecool.bookshelf.books.Book;
+import com.codecool.bookshelf.model.books.Book;
 
 import java.util.Comparator;
 import java.util.LinkedList;
@@ -23,6 +23,10 @@ public class Bookshelf {
 
     public List<Book> getBooks(int year){
         return shelf.stream().filter(item -> item.getReleaseYear() == year ).collect(Collectors.toList());
+    }
+
+    public List<Book> getAllBooks(){
+        return shelf;
     }
 
     public String getLightestAuthor(){

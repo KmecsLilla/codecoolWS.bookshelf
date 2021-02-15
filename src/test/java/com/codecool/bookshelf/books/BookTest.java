@@ -1,7 +1,7 @@
 package com.codecool.bookshelf.books;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
+import com.codecool.bookshelf.model.books.Book;
+import com.codecool.bookshelf.model.books.GenreType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +17,7 @@ public class BookTest {
 
     @BeforeEach
     void setup(){
-        book = new Book("Felhőatlasz","David Mitchell",2004,200,100);
+        book = new Book("Felhőatlasz","David Mitchell",2004,200,100, GenreType.SCIFI);
     }
 
     @Test
