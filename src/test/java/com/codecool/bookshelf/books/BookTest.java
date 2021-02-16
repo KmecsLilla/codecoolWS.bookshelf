@@ -17,7 +17,7 @@ public class BookTest {
 
     @BeforeEach
     void setup(){
-        book = new Book("Felhőatlasz","David Mitchell",2004,200,100, GenreType.SCIFI);
+        book = new Book(1,"Felhőatlasz","David Mitchell",2004,200,100, GenreType.SCIFI);
     }
 
     @Test
